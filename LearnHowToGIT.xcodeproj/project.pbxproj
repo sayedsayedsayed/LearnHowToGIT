@@ -11,6 +11,8 @@
 		ECA309AC2A20A7E200C26905 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA309AB2A20A7E200C26905 /* ContentView.swift */; };
 		ECA309AE2A20A7E200C26905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA309AD2A20A7E200C26905 /* Assets.xcassets */; };
 		ECA309B12A20A7E200C26905 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA309B02A20A7E200C26905 /* Preview Assets.xcassets */; };
+		FE76D11A2A20ADB600058B1B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE76D1192A20ADB600058B1B /* DetailView.swift */; };
+		FE76D11C2A20AE5800058B1B /* NavigationBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE76D11B2A20AE5800058B1B /* NavigationBarButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		ECA309AB2A20A7E200C26905 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECA309AD2A20A7E200C26905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECA309B02A20A7E200C26905 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE76D1192A20ADB600058B1B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FE76D11B2A20AE5800058B1B /* NavigationBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		ECA309A82A20A7E200C26905 /* LearnHowToGIT */ = {
 			isa = PBXGroup;
 			children = (
+				FE76D1192A20ADB600058B1B /* DetailView.swift */,
 				ECA309A92A20A7E200C26905 /* LearnHowToGITApp.swift */,
 				ECA309AB2A20A7E200C26905 /* ContentView.swift */,
 				ECA309AD2A20A7E200C26905 /* Assets.xcassets */,
 				ECA309AF2A20A7E200C26905 /* Preview Content */,
+				FE76D11B2A20AE5800058B1B /* NavigationBarButtonView.swift */,
 			);
 			path = LearnHowToGIT;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE76D11C2A20AE5800058B1B /* NavigationBarButtonView.swift in Sources */,
 				ECA309AC2A20A7E200C26905 /* ContentView.swift in Sources */,
+				FE76D11A2A20ADB600058B1B /* DetailView.swift in Sources */,
 				ECA309AA2A20A7E200C26905 /* LearnHowToGITApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
